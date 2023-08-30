@@ -1,0 +1,15 @@
+/* Button.css */
+.custom-button {
+         background-color: #3498db;
+         color: white;
+         border: none;
+         padding: 10px 20px;
+         cursor: pointer;
+         transition: background-color 0.3s ease; /* Add a smooth transition */
+       
+         /* Styles for when the button is hovered */
+         &:hover {
+           background-color: #2980b9;
+         }
+       }
+       
